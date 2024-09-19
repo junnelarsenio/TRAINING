@@ -11,7 +11,7 @@
 - to resolve a simple merge conflict.
 - create a merge conflict, and resolved it.
 
-# Release Based Workflow
+# RELEASE BASED WORKFLOW
 ### In this section i learned:
 - to create a beta release.
 - to add a new feature to the release branch.
@@ -20,3 +20,7 @@
 - merge and finalize the release branch.
 - commit a hotfix to the release.
 - create release v1.0.1.
+
+# CONNECT THE DOTS
+### In this section i learned:
+-  about finding and sharing information. Within a GitHub repository, you can find history about what changes were made, and more importantly, why changes were made.
