@@ -10,4 +10,21 @@
 - Storage - This is where you store the thing that cant be stored in the database like photos and videos.
 - Vendor - This contains the things we download using composer.
 
-  
+# Routes
+
+- route example:
+```php
+<?php
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', 'HomeController@index')->name('home');
+?>
+```
+
+##### Different Route method
+- Get
+- Post
+- Put
+- Patch
+- Delete
+- Option
