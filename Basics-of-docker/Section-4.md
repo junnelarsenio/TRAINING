@@ -1,15 +1,16 @@
-# INSTALLING DOCKER
-
-
-
-
-
-
-
+## INSTALLING DOCKER 
+- Go to Dockers Official website and download the packages that appropriate to your OS.
 
 
 
  ## Docker Community Edition vs Enterprise Edition and Their Release Cycle
+ ### How does Docker Version their releases
+ - **Nightly** - contains latest builds
+ - **Test** - contains builds that are feature-complete and on their way on being stable
+ - **Stable** - is considered stable and are GA (General Availability) releases.
+   
+
+ 
  #### Docker Community Edition
  - Docker Comminity Edition or Docker CE for short is Free and Open source.
  - It's a rebranded name for the same old Docker engine
