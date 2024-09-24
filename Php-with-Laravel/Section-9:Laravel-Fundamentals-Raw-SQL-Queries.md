@@ -1,4 +1,4 @@
-> **Note** This is from the laravel documentation
+> **Note** This is from the laravel documentation. This example is used in the `controller` while in the Video it is used in the `route/web.php` file
 
 # Running Raw SQL Queries
 - Once you have configured your database connection, you may run queries using the DB facade.
