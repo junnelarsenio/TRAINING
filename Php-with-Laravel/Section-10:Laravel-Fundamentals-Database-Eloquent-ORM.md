@@ -1,5 +1,14 @@
 # Database - Eloquent ORM
-
+- Eloquent makes managing and working with relationships easy, and supports several different types of relationships:
+   - One to one
+   - One to many
+   - Many to many
+   - Has one Through
+   - Has many Through
+   - One to one (Polymorphic)
+   - One to many (Polymorphic)
+   - Many to many (Polymorphic)
+     
 - **Reading Data**
   ```php
   Route::get('/find', function(){
@@ -30,4 +39,23 @@
   
   });
   ```
+- **Deleting Data**
+  ```php
+  Route::get('/delete', function(){
   
+  $post = Post::find(1);
+  $post->delete();
+
+  });
+  ```
+
+    ```php
+  Route::get('/delete2', function(){
+  
+  Post::destroy(1);
+  
+
+  });
+  ```
+  
+    
