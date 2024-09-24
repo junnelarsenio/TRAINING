@@ -1,3 +1,5 @@
+> **Note** This is from the laravel documentation
+
 # Running Raw SQL Queries
 - Once you have configured your database connection, you may run queries using the DB facade.
   The DB facade provides methods for each type of query: `select`, `update`, `insert`, `delete`, and `statement`.
