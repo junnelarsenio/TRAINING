@@ -20,3 +20,13 @@
 - Docker Daemon
 - Binary & Library -> App
 - Starts in milliseconds
+
+### Docker Architecture
+1. Server: Docker daemon
+2. Rest API
+3. Client: Docker CLI
+- You can use the Client to manage diffrent components, such as:
+  - Images
+  - Containers
+  - Networks
+  - Data volumes
