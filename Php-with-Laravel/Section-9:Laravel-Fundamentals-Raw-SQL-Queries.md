@@ -30,4 +30,11 @@ class UserController extends Controller
     }
 }
 ```
+### Running an *Insert* Statement
+` DB::insert('insert into users (id, name) values (?, ?)', [1, 'john']);`
 
+### Running an *Update* Statement
+` $affected = DB::update('update users set votes = 100 where name = ?', ['John']);`
+
+### Running a *Delete* Statement
+` $deleted = DB::delete('delete from users');`
