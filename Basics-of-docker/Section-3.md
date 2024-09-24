@@ -1,4 +1,6 @@
-# Virtual Machines Vs Docker Containers
+# UNDERSTANDING DOCKER
+
+### Virtual Machines Vs Docker Containers
 - Docker Containers are not Virtual Machines
 - Virutal machine starts in minutes while Docker starts in just about a milliseconds
 
