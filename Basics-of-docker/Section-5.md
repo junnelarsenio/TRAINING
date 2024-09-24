@@ -1,8 +1,8 @@
 # DISCOVERING DOCKER
 
 ### Hello world with Docker
-- Type in the command line "docker run hello-world
-  `this command performed 4 key steps`
+- Type in the command line `docker run hello-world`
+this command performed 4 key steps
   - 1. The Docker client contacted the Docker daemon.
   - 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
     (amd64)
