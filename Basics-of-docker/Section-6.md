@@ -20,3 +20,25 @@ CMD flask run --host=0.0.0.0 --port=5000
 
 `docker --help` - this returns back all the docker commands that we can run with docker CLI
 
+**To build your docker file**
+- `docker build image -t name .`
+ 
+**To inspect a docker image**  
+- `docker image inspect name`
+
+**To remove a docker image**
+- `docker image rm name` or `docker image rm imageID` 
+- `-f` : Adding `-f` to `rm` bypasses the error that you will encounter when removing docker images with the same `image ID`
+
+**To shows the list of built docker images**
+- `docker image ls` 
+
+### Clean Up
+- `docker container ls` : List all containers.
+- `docker container ls -a` : List all stopped containers.
+- `docker system df` - Show disk space is being used by docker, append `-v` is verbose
+- `docker image ls` - Shows all docker images, any image that has the `<none>` tag are dangling/unused images
+- `docker system info` - Display information about docker installation
+- `docker system prune` - Prunes all safe to delete images and containers, append `-f` to delete without needing to confirm it, `-a` is to delete all unused images.
+- `docker stop name1 name2 name3` - Stop the containers in `name1`, `name2`, and `name3`.
+- `docker stop $(docker container ls -a -q)` - Stops multiple containers especially on running more than 10 or more docker containers
