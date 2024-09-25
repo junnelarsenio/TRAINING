@@ -1,4 +1,5 @@
 # ELOQUENT ONE TO ONE RELATIONSHIP CRUD
+Using the `hasOne()` method:
 - **Creating Data**
 ```php
 use App\User;
