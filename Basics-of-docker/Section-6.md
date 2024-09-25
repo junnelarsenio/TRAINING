@@ -11,7 +11,7 @@ RUN pip install -r requirements.txt
 
 COPY . . 
 
-LABEL maintainter = "Abner <abner.masong@nabepero.co.jp>" \
+LABEL maintainter = "junnel <junnel.arsenio@nabepero.co.jp>" \
       version = "1.0"
 
 CMD flask run --host=0.0.0.0 --port=5000
