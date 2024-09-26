@@ -1,4 +1,4 @@
-# Dockerizing Your Web Application
+# DOCKERIZING YOUR WEB APPLICATION
 - This section teaches how to dockerized an application
 - Dockerized in different programming languages and some frameworks <br>
 ```
