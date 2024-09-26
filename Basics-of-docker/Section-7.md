@@ -1,4 +1,4 @@
-# Docker Compose in the real world
+# DOCKER COMPOSE IN THE REAL WORLD
 
 
 ### Docker Compose Commands
