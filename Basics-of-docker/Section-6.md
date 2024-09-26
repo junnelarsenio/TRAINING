@@ -47,8 +47,10 @@ CMD flask run --host=0.0.0.0 --port=5000
 ## Live coding with volume
 **run this on terminal**
 
-`docker container run -it -p 5000:5000 -e FLASK_APP=app.py --rm --name web1 -e FLASK_DEBUG=1 -v "current directory":/app web1`
+```docker container run -it -p 5000:5000 -e FLASK_APP=app.py --rm --name web1 -e FLASK_DEBUG=1 -v "current directory":/app web1```
 
 **this is what it looks like on my terminal**
 
-`docker container run -it -p 5000:5000 -e FLASK_APP=app.py --rm --name web1 -e FLASK_DEBUG=1 -v C:\Users\jhade\Downloads\diveintodocker\diveintodocker\src\06-docker-in-the-real-world\03-creating-a-dockerfile-part-1:/app web1`
+```
+docker container run -it -p 5000:5000 -e FLASK_APP=app.py --rm --name web1 -e FLASK_DEBUG=1 -v C:\Users\jhade\Downloads\diveintodocker\diveintodocker\src\06-docker-in-the-real-world\03-creating-a-dockerfile-part-1:/app web1
+```
