@@ -1,4 +1,4 @@
-## INSTALLING DOCKER 
+# INSTALLING DOCKER 
 - Go to Dockers Official website and download the packages that appropriate to your OS.
 
 
